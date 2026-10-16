@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/checkout", "destination": "/index.html" },
+    { "source": "/services", "destination": "/index.html" },
+    { "source": "/contact", "destination": "/index.html" },
+    { "source": "/demo", "destination": "/index.html" },
+    { "source": "/legal-notice", "destination": "/index.html" },
+    { "source": "/imprint", "destination": "/index.html" },
+    { "source": "/terms", "destination": "/index.html" },
+    { "source": "/cancellations", "destination": "/index.html" },
+    { "source": "/returns", "destination": "/index.html" },
+    { "source": "/refunds", "destination": "/index.html" },
+    { "source": "/delivery", "destination": "/index.html" }
+  ]
+}
